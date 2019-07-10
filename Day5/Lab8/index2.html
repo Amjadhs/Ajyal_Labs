@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div.layer0 {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        background: blue;
+      }
+      div.layer1 {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: red;
+      }
+      div.layer2 {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        background: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Position attribute</h2>
+    <div class="layer0">
+      <div class="layer1"></div>
+      <div class="layer2"></div>
+    </div>
+  </body>
+</html>
